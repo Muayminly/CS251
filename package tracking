@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kencat Express</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!--navigation bar-->
+    <div class="top">
+        <div class="bar white wide padding card">
+            <a href="#TopOfPage" class="bar-item button"><img src="images/Logo.png" alt="kencat_logo" width="149.71" height="38.5"></a>
+        </div>   
+        <a href="#PackageTracking">ติดตามสถานะพัสดุ</a>
+        <a href="#ShippingCost">คำนวณค่าส่งพัสดุ</a>
+    </div>
+
+    <!--Head banner-->  
+    <header class="display-container content wide" style="max-width:1500px;" id="home">
+        <img src="costumer/images/kencat_express_banner.png" alt="kencat_express_banner" width="1440" height="378" >
+    </header>
+
+    <!--Tracking number-->
+    <section class="tracking-section">
+        <h2>กรุณากรอกหมายเลขพัสดุ (Please enter your Track ID)</h2>
+        <input type="text" id="trackingInput" placeholder="Enter Track ID">
+        <button onclick="trackPackage()">ติดตาม</button>
+    </section>
+
+    <!--information-->
+    <section class="info-section">
+        <h2>Why Choose Kencat Express?</h2>
+        <ul>
+            <li>Fast and reliable delivery</li>
+            <li>Easy online tracking</li>
+            <li>Safe and secure service</li>
+        </ul>
+    </section>
+
+    <!--lower footer-->
+    <footer>
+        <h3>ที่อยู่ (location)</h3>
+        <p>บริษัท เคนแคท เอ็กเพรส จำกัด 99 หมู่ที่ 18 ถนนพหลโยธิน ตำบลคลองหนึ่ง อำเภอคลองหลวง จังหวัดปทุมธานี 12120</p>
+
+        <h3>ติดต่อ (contacts)</h3>
+        <p>000-0000000</p>
+
+        <a href="#GoToEmployee">Log in as employee</a>
+    </footer>
+
+
+</body>
+</html>
